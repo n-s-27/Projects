@@ -1,2 +1,2 @@
 # Projects
-Personal projects 
+Personal projects I have created or am currently working on
