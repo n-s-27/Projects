@@ -112,7 +112,7 @@ driver.find_element_by_id("NextButton").click()
 
 # Now we have our go-ahead we need to screenshot it and have it sent to user phone for convenient presentation to campus security
 
-# to save screenshot - by date or number or penis size
+# to save screenshot - by date or number
 
 
 
@@ -122,7 +122,6 @@ pic = driver.save_screenshot('./image.png')
 result = sms4.send('+12147843760', 'The server is down!')
 print(result)
 
-#
 
 
 sender_email = "7843760@gmail.com"
@@ -134,10 +133,6 @@ password = input("Type your password and press enter: ")
 
 contents = '\image.png'
 
-#yagmail.SMTP('7843760').send('nshafron99@gmail.com', 'subject', contents)
 
 
-# Alternatively, with a simple one-liner:
 
-
-#Z1x2c3v4b5
