@@ -81,18 +81,18 @@ driver.find_element_by_id("NextButton").click()
 
 # END PAGE 4
 time.sleep(1)
-firstName = 'Noah'
+firstName = #enter first name 
 fnID = '//*[@id="QR~QID25~1"]'
 driver.find_element_by_xpath(fnID).click()
 driver.find_element_by_css_selector('#QR\~QID25\~1').send_keys("Noah")
-lastName = 'Shafron'
+lastName = #enter last name
 lnXP = '//*[@id="QR~QID25~2"]'
 lnCss = '#QR\~QID25\~2'
 driver.find_element_by_xpath(lnXP).click()
 driver.find_element_by_css_selector(lnCss).send_keys(lastName)
 
 
-yEmail = 'shafron@mail.yu.edu'
+yEmail = #enter your email
 emXP = '//*[@id="QR~QID25~3"]'
 emCSS = '#QR\~QID25\~3'
 driver.find_element_by_xpath(emXP).click()
@@ -119,13 +119,13 @@ driver.find_element_by_id("NextButton").click()
 pic = driver.save_screenshot('./image.png')
 
 # result is a json server response. see docs for details
-result = sms4.send('+12147843760', 'The server is down!')
+result = sms4.send('xxx-xxx-xxxx', 'The server is down!')
 print(result)
 
 
 
-sender_email = "7843760@gmail.com"
-receiver_email = "nshafron99@gmail.com"
+sender_email = "sender@sender.com"
+receiver_email = "recipient@mail.com"
 
 password = input("Type your password and press enter: ")
 
